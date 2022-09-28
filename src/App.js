@@ -9,13 +9,13 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route exact path="/react-meetup">
+        <Route exact path="/react-meetups">
           <AllMeetupsPage />
         </Route>
-        <Route path="/react-meetup/new-meetup">
+        <Route path="/react-meetups/new-meetup">
           <NewMeetupPage />
         </Route>
-        <Route path="/react-meetup/favorites">
+        <Route path="/react-meetups/favorites">
           <FavoritesPage />
         </Route>
       </Switch>
